@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Billing.Common", "Billing.C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1F6CEFCF-15C2-4141-A02E-914664177C26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Billing.Api.Tests", "Billing.Api.Tests\Billing.Api.Tests.csproj", "{1C3D6001-B641-45DE-BAA2-036A83740522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Billing.Api.Tests", "tests\Billing.Api.Tests\Billing.Api.Tests.csproj", "{1C3D6001-B641-45DE-BAA2-036A83740522}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Billing.Application.Tests", "Billing.Application.Tests\Billing.Application.Tests.csproj", "{E798CCBB-688A-4B3D-808D-387F8995AFA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Billing.Application.Tests", "tests\Billing.Application.Tests\Billing.Application.Tests.csproj", "{E798CCBB-688A-4B3D-808D-387F8995AFA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billing.Common.Tests", "Billing.Common.Tests\Billing.Common.Tests.csproj", "{AE1451DE-31E5-424E-8A5B-A537A8F66FFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billing.Common.Tests", "tests\Billing.Common.Tests\Billing.Common.Tests.csproj", "{AE1451DE-31E5-424E-8A5B-A537A8F66FFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

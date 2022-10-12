@@ -8,10 +8,8 @@ namespace Billing.Application.Tests.Guards
 {
     public class OrderUserIdGuardTests
     {
-        [Theory]
-        [InlineData(0)]
-        [InlineData(-10)]
-        public void Check_MustThrowBillingApiException_WhenIdIsZeroOrLess(int id)
+        [Fact]
+        public void Check_MustThrowBillingApiException_WhenIdIsDefault()
         {
             //Arrange
             var expectedMessage = "UserId should be set.";
